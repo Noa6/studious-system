@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+body {
+    font-family: 'Alkatra', cursive; 
+}
+.container{
+    margin: auto;
+    max-width: 750px;
+    background: #e3e0e0;
+}
+.border1 {
+    margin-bottom: 20px;
+    padding: 2%;
+    border-radius: 20px;
+    background:  #e0c5c5a0
+    }
+    img{
+        margin-left: 30px;
+        margin-top: 30px;
+        border-radius: 10%;
+        box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    }
+    .form h2 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    a{
+        color: #4e354c;
+        text-decoration: none;
+    }
+    a:hover{
+        color: #976d99;
+    }
+    .form-group label{
+        display: block;
+        
+    }
+    .form-group input,
+    .form-group textarea{
+        box-sizing: border-box;
+        border: none;
+        background: transparent;
+        resize: none;
+        outline: none;
+        text-align: center; 
+    }
+    .form-row .form-group {
+        display: inline-block;
+        text-align: center;
+        margin-left: 35px;
+    }
+    .form-group textarea{
+        height: 19px;
+    }
+    .btn{
+        background: rgba(161, 97, 122, 0.667);
+        padding: 8px 15px;
+        border: none;
+        cursor: pointer;
+        border-radius: 15px;
+        font-family: inherit;
+        margin-top: 28px;
+        margin-left: 43%;
+
+    }
+    .btn:hover{
+        opacity: .8;
+        color: rgb(129, 208, 232);
+    }
+    h2{
+        color: rgb(209, 134, 209);
+    }
+    table {
+        border-collapse: collapse ;
+        width: 600px;
+    }
+    table td{
+        /*border-bottom: 3px dotted rgb(225, 128, 192);*/
+        box-shadow: inset 0 -2px 0 rgba(165, 141, 167, 0.464), 0 2px 0 rgba(165, 141, 167, 0.464);
+      transition: box-shadow .3s;
+        padding: 6px 10px;
+    }
+    table td:hover{
+        box-shadow: inset 0 -30px 0 rgba(165, 141, 167, 0.464), 0 2px 0 rgba(165, 141, 167, 0.464);
+    }
+    table th{
+        color: rgb(165, 141, 167);
+    }
+    h4{
+        margin-bottom: 5px;
+    }
+    .ii{
+        margin-top: 0px;
+    }
+    .i{
+        margin-bottom: 0px;
+    }
+  .quote{
+    margin-bottom: 5%;
+   display:flex
+  }
+  .quote2{
+    margin-top: 8%;
+    margin-left: 18px;
+    color: #6d2768c4;
+  }
+  .pi, .i{
+    margin-bottom: 0px;
+}
+.pi2{
+    margin-top: 5px;
+    }
+    .color {
+        color: rgb(240, 169, 181);
+        letter-spacing: 5px; 
+    }
+    @media (max-width: 500px) {
+        .quote{
+            display: inline;
+        }
+        .quote2{
+            margin-top: 0;  
+        }
+       
+    }
+    @media (max-width: 757px) {
+     .border1 table{
+            width: auto;
+           }
+    .form-row .form-group {
+        margin-left: auto;  
+    }
+    }
+    @media (max-width: 598px) {
+        .form-row .form-group{
+            display: block;
+        }
+        .btn{
+            margin-left: 36%;
+        }
+    }
+    
